@@ -1,24 +1,38 @@
 {
-    "name": "ielliena12/laravel-logs",
-    "description": "Ларавел пакет для просмотра логов ларавел",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Ielliena12\\LaravelLogs\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ielliena12\\LaravelLogs\\LogServiceProvider"
-            ]
-        }
-    },
-    "require": {
-        "php": "^8.2",
-        "laravel/framework": "^11.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "ielliena12/laravel-logs",
+  "description": "Ларавел пакет для просмотра логов ларавел",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "logs",
+    "viewer",
+    "admin",
+    "log",
+    "management"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elena-Stefania Ragnvindr",
+      "email": "ielliena122@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ielliena12\\LaravelLogs\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ielliena12\\LaravelLogs\\LogServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^11.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
