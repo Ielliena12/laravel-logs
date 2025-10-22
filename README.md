@@ -6,13 +6,13 @@
 
 1. Установите пакет:
 ```bash
-composer require your-vendor/laravel-logs
+composer require ielliena12/laravel-logs
 ```
 
 2. Опубликуйте конфигурацию (опционально):
 
 ```bash
-php artisan vendor:publish --provider="YourVendor\\LaravelLogs\\LogServiceProvider" --tag="laravel-logs-config"
+php artisan vendor:publish --provider="Ielliena12\\LaravelLogs\\LogServiceProvider" --tag="laravel-logs-config"
 ```
 
 ## Использование
